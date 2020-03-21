@@ -32,6 +32,7 @@ public class CategoriaResource {
 		
 	}
 	
+	
 	@RequestMapping(method = RequestMethod.POST)
 	public ResponseEntity<Void> insert(@RequestBody Categoria obj){		
 		obj = service.insert(obj);
